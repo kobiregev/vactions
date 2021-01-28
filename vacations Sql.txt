@@ -1,0 +1,52 @@
+-- create database vacations;
+-- use vacations
+
+-- create table users(
+-- 	user_id int auto_increment,
+--     user_fname varchar(255) not null,
+--     user_lname varchar(255) not null,
+--     username varchar(255) not null,
+--     password text not null,
+--     role varchar(255) default "user",
+--     primary key(user_id)
+-- );
+
+-- create table vacations(
+-- 	vacation_id int auto_increment,
+--     vacation_description varchar(255) not null,
+--     vacation_destination varchar(255) not null,
+--     vacation_image text not null,
+--     vacation_fromDate date not null,
+--     vaction_toDate date not null,
+--     vacation_price int not null,
+--     vacation_followers int not null default 0,
+--     primary key(vacation_id)
+-- );
+
+-- create table followedVacations(
+-- 	user_id int not null,
+--     vacation_id int not null,
+--     foreign key(user_id) references users(user_id),
+--     foreign key(vacation_id) references vacations(vacation_id)
+-- );
+
+--  insert into users (user_fname, user_lname,username, password)
+--  values('kobi', 'regev', 'jlwkr', '123')
+
+-- UPDATE `vacations`.`users` SET `role` = 'admin' WHERE (`user_id` = '1');
+-- UPDATE `vacations`.`users` SET `password` = '$2a$10$B1KaxOaNJ1QZJYM/rVpGguBRvZwaVAUqSINma8wP2UoiPZ5wRfFgq' WHERE (`user_id` = '1');
+
+ -- insert into vacations (vacation_description, vacation_destination,vacation_image,vacation_fromDate, vaction_toDate,vacation_price )
+ -- values("With world-class museums, quirky festivals, theatre, live music, laid-back bars and delightful restaurants, there's never a shortage of things to do in Amsterdam!","Amsterdam", "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/KeizersgrachtReguliersgrachtAmsterdam.jpg/270px-KeizersgrachtReguliersgrachtAmsterdam.jpg","2020-09-15","2020-09-18",123)
+
+ -- insert into vacations (vacation_description, vacation_destination,vacation_image,vacation_fromDate, vaction_toDate,vacation_price )
+ -- values('Declared in 2011 as one of the `New 7 Wonders of Nature`, The Amazon, also called the Amazon Rainforest or Amazon Jungle covers parts of Peru, Brazil, Ecuador, Colombia, and Venezuela.','THE AMAZON',"https://tripmasters-pictures.s3.amazonaws.com/images/apkg/998/amazon_-_river_and_boats-1136685-200.jpg","2020-03-08","2020-03-12",2000),
+ -- ('The Caribbean Islands are what tropical dreams are made of! The region is made up of the Caribbean Sea and 30 island territories and thousands more islets, reefs, and cays. Each island has a different influence and history.',"The Caribbean Islands","https://tripmasters-pictures.s3.amazonaws.com/images/hotels/colombia/santa-irotamahotelbeach-500.jpg","2020-02-05","2020-03-05",400),
+-- ("Samba and Tango! This classic itinerary will take you from famous Rio de Janeiro for a visit to the newly declared Wonder of the World 'Christ the Redeemer' to Iguassu Falls and its breathtaking natural spectacle.","Rio de Janeiro","https://pictures.tripmasters.com/images/packages/brazil/rioatnight-500.jpg","2020-11-05","2020-11-05",302),
+-- ("Tokyo offers a seemingly unlimited choice of shopping, entertainment, culture and dining to its visitors. The city's history can be appreciated in districts such as Asakusa and in many excellent museums, historic temples and gardens. Contrary to common perception, Tokyo also offers a number of attractive green spaces in the city center and within relatively short train rides at its outskirts.","Tokyo", "https://upload.wikimedia.org/wikipedia/commons/3/3f/Rainbow_colored_Rainbow_Bridge_at_night.jpg","2020-10-12","2020-10-22",302),
+-- ("Dubai has an excellent nightlife scene with a large choice of bars and nightclubs to be enjoyed. Most of the licensed bars are in hotels, but there are some exceptions...","Dubai", "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Dubaicollage.jpg/280px-Dubaicollage.jpg","2020-11-05","2020-11-18",500),
+-- ("Moscow is the capital and most heavily populated city in Russia, as well as being the largest city on the European continent. It is an iconic and global city and is the key political, economic, cultural and scientific centre of not only Russia but of Eastern Europe as well. It is a city renowned for the Red Square, the Kremlin and St. Basil’s cathedral and furthermore, should be on your travel bucket list.","Moscow", "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Spasskaya_Tower_and_the_St._Basil%27s_Cathedral.jpg/266px-Spasskaya_Tower_and_the_St._Basil%27s_Cathedral.jpg","2021-01-05","2021-02-15",600)
+
+
+
+
