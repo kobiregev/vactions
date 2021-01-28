@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.login_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  flex-direction: row;
+}
+.login_div {
+  width: 100vw;
+  height: 100vh;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+.login_paper{
+  height: 330px;
+}
+.side_img{
+  background-image:url("https://image.freepik.com/free-photo/empty-sea-beach-background_74190-313.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 450px;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.login>button {
+  margin-top: 5px;
+}
+
+.register_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+}
+
+.vacation_card {
+  width: 450px;
+  height: 450px;
+}
+
+.Card {
+  margin: 4px
+}
+
+.vacation_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.vacation_list {
+  margin-top: 6px;
+}
+
+.vacation_container {
+  margin: 6px;
+}
+
+.search_container {
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.searchBar {
+  height: 50px;
+}
+
+.search_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  width: 85vw;
+}
+
+.buttons {
+  margin-top: auto
+}
+
+.searchInput {
+  margin-right: 5px;
+}
